@@ -1,2 +1,5 @@
 # python-repo-o32v
-Than remember modern.
+
+This is a sample project written in **Javascript**.
+
+Generated automatically.
