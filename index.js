@@ -1,5 +1,9 @@
-function hello() {
-    console.log('Hello from javascript!');
+const { processData } = require('./utils');
+
+async function main() {
+    const config = require('../config/config.json');
+    const data = await processData(config.dataPath);
+    console.log(`Processed ${data.length} records`);
 }
 
-hello();
+main().catch(console.error);
